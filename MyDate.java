@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class MyDate {
     private String day;//eg mon tue wed
-    private long month;//eg jan feb in numbers
-    private long year;
-    private long timeInMilli;//time in millisecond since epoch
+    private long month = -1;//eg jan feb in numbers
+    private long year = -1;
+    private long timeInMilli = -1;//time in millisecond since epoch
 
     public MyDate(){
         day = day();
